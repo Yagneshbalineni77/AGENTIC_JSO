@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { jobs, hrCandidates, calculateFitScore } from "@/lib/mockData";
-import { EyeOff, ChevronDown, ListFilter, BrainCircuit, Activity, SlidersHorizontal, Trash2 } from "lucide-react";
+import { EyeOff, ChevronDown, ListFilter, BrainCircuit, Activity, SlidersHorizontal, Trash2, ArrowRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function HRDashboard() {
